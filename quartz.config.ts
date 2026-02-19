@@ -3,12 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
+ * Medium-inspired Editorial Theme
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Harshrb",
+    pageTitle: "Harsh RB",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,39 +17,39 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "resources.harshrb.in", // Updated to your live domain
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter", // Crisp, modern sans-serif for titles
+        body: "Lora", // Elegant, highly readable serif for blog text
+        code: "Fira Code", // Clean developer font for code blocks
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#ffffff", // Pure white background
+          lightgray: "#f9f9f9", // Very subtle gray for code/callout backgrounds
+          gray: "#e6e6e6", // Soft borders
+          darkgray: "#242424", // Medium's rich charcoal for body text (reduces eye strain vs pure black)
+          dark: "#000000", // Pure black for high-contrast headings
+          secondary: "#1a8917", // Medium's signature green for links and accents
+          tertiary: "#757575", // Muted gray for metadata and dates
+          highlight: "rgba(26, 137, 23, 0.08)", // Very subtle green background highlight
+          textHighlight: "rgba(26, 137, 23, 0.2)", // Green text highlighter
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#121212", // Deep charcoal background (easier on eyes than pure black)
+          lightgray: "#1e1e1e", // Elevated elements and code blocks
+          gray: "#333333", // Dark borders
+          darkgray: "#e2e2e2", // Soft off-white for highly readable body text
+          dark: "#ffffff", // Pure white for headings
+          secondary: "#26a641", // A slightly brighter, high-visibility green for dark mode links
+          tertiary: "#a3a3a3", // Muted text for dates/metadata
+          highlight: "rgba(38, 166, 65, 0.15)", // Subtle dark-green highlight
+          textHighlight: "rgba(38, 166, 65, 0.3)", // Dark-mode green text highlighter
         },
       },
     },
@@ -88,8 +89,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      Plugin.CustomOgImages(), 
     ],
   },
 }
