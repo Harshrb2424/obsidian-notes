@@ -4,7 +4,9 @@ title: Welcome to Harsh's Resources
 
 Welcome to **resources.harshrb.in**! I am a Full Stack Developer who bridges the gap between technical development and creative artistry. 
 
-🔗 **[Visit my Main Portfolio](https://portfolio.harshrb.in/)** | 📄 **[Download my Resume](https://portfolio.harshrb.in/Harsh_RB_Resume.pdf)**
+🔗 **[Visit my Main Portfolio](https://portfolio.harshrb.in/)** 
+
+📄 **[Download my Resume](https://portfolio.harshrb.in/Harsh_RB_Resume.pdf)**
 
 ---
 

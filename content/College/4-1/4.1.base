@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.name.startsWith("4.1")
+    order:
+      - file.name
+    rowHeight: medium
+    cardSize: 350
+    imageFit: ""

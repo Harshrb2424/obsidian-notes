@@ -1,0 +1,18 @@
+support,itemsets
+0.5,frozenset({'Beer'})
+0.8,frozenset({'Bread'})
+0.5,frozenset({'Butter'})
+0.6,frozenset({'Diaper'})
+0.7,frozenset({'Milk'})
+0.3,"frozenset({'Bread', 'Beer'})"
+0.5,"frozenset({'Diaper', 'Beer'})"
+0.3,"frozenset({'Milk', 'Beer'})"
+0.5,"frozenset({'Butter', 'Bread'})"
+0.4,"frozenset({'Diaper', 'Bread'})"
+0.6,"frozenset({'Milk', 'Bread'})"
+0.4,"frozenset({'Milk', 'Butter'})"
+0.4,"frozenset({'Milk', 'Diaper'})"
+0.3,"frozenset({'Diaper', 'Bread', 'Beer'})"
+0.3,"frozenset({'Milk', 'Diaper', 'Beer'})"
+0.4,"frozenset({'Milk', 'Butter', 'Bread'})"
+0.3,"frozenset({'Milk', 'Diaper', 'Bread'})"

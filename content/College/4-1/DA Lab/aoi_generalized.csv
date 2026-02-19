@@ -1,0 +1,11 @@
+StudentID,Name,Department,State,Country,AgeGroup
+1,Alice,CSE,Telangana,India,Young
+2,Bob,CSE,Telangana,India,Young
+3,Charlie,ECE,Delhi,India,Teen
+4,David,ECE,Delhi,India,Adult
+5,Eve,MECH,Maharashtra,India,Senior
+6,Frank,CSE,Maharashtra,India,Young
+7,Grace,EEE,Maharashtra,India,Young
+8,Helen,MECH,Tamil Nadu,India,Adult
+9,Ivy,EEE,Tamil Nadu,India,Senior
+10,Jack,CSE,Telangana,India,Teen

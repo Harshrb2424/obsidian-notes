@@ -1,0 +1,11 @@
+StudentID,Name,City,Age,Department
+1,Alice,Hyderabad,21,CSE
+2,Bob,Hyderabad,25,CSE
+3,Charlie,Delhi,19,ECE
+4,David,Delhi,32,ECE
+5,Eve,Mumbai,45,MECH
+6,Frank,Pune,28,CSE
+7,Grace,Pune,22,EEE
+8,Helen,Chennai,35,MECH
+9,Ivy,Chennai,41,EEE
+10,Jack,Hyderabad,18,CSE
