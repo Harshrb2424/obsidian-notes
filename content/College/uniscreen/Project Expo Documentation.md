@@ -1,7 +1,3 @@
-Here is the refined and structured content for your documentation, optimized for professional clarity and engagement.
-
----
-
 # **UniScreen**
 
 ### _The Operating System for Modern University Campuses_
