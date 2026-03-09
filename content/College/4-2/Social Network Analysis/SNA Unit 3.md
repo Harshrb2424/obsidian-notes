@@ -1,10 +1,8 @@
-![[SNA 2.1]]
+![[SNA Email]]
 
-![[SNA 2.2]]
+![[Thread Networks]]
 
-![[SNA 2.3]]
-
-![[SNA 2.4]]
+![[SNA Twitter]]
 
 ## Links:
 

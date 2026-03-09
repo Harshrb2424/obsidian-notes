@@ -1,10 +1,7 @@
-![[SNA 2.1]]
 
-![[SNA 2.2]]
+![[Visualizing and Interpreting Facebook Networks]]
 
-![[SNA 2.3]]
-
-![[SNA 2.4]]
+![[WWW Hyperlink Networks]]
 
 ## Links:
 

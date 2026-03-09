@@ -1,10 +1,6 @@
-![[SNA 2.1]]
+![[SNA YouTube]]
 
-![[SNA 2.2]]
-
-![[SNA 2.3]]
-
-![[SNA 2.4]]
+![[Wiki Networks]]
 
 ## Links:
 
