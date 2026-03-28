@@ -14,7 +14,6 @@
     
 - **Business Value:** Analyzing these networks reveals how an organization’s online position matches its offline brand presence and provides ethical competitive intelligence.
     
-
 ---
 
 ## 4.2.2 Theory and Methodology of Hyperlinking
@@ -66,6 +65,7 @@ Analyzing hyperlink networks requires defining three parameters:
     
 - **Significance:** It allows non-programmers to conduct complex web-crawling and network analysis tasks within the familiar Excel interface.
     
+![](http://www.connectedaction.net/wp-content/uploads/2011/04/20110221-NodeXL-Twitter-List-valdiskrebs-network-analysts-1024x768.jpg)
 
 ---
 
@@ -90,23 +90,7 @@ This explores who links to a specific organization (using the VOSON Project site
     
 - **The Solution:** Create a subgraph containing only "important sites"—defined here as sites with an **undirected degree $\ge 2$** (meaning they are connected to at least two other sites in your target network).
     
-
----
-
-## Placeholder for Figure 4.2.1 to 4.2.6
-
-- [Figure 4.2.1: NodeXL Data Import "VOSON login" dialog]
-    
-- [Figure 4.2.2: NodeXL "Select existing or build new VOSON network" dialog]
-    
-- [Figure 4.2.3: NodeXL "Create VOSON database" dialog]
-    
-- [Figure 4.2.4: Select network dialog after a new database is created]
-    
-- [Figure 4.2.5: NodeXL "Add seed sites to VOSON database" dialog]
-    
-- [Figure 4.2.6: Add seed sites dialog after entering URLs]
-    
+![](https://media.discordapp.net/attachments/1121800843193229406/1487475117998215323/image.png?ex=69c946a8&is=69c7f528&hm=f99615a836cc5726091de77c94e6ef38167bf4ff206d6c0ec93eaa77c0e47932&=&format=webp&quality=lossless)
 
 ---
 
@@ -126,27 +110,7 @@ Instead of an ego network, this maps an entire sector (e.g., "Social Network Ana
         
 - **Actionable Insight:** If a top-ranked site in your industry does _not_ link to you, submitting a request for a link can significantly increase your traffic and search engine ranking.
     
-
----
-
-## Placeholder for Figure 4.2.7 to 4.2.14
-
-- [Figure 4.2.7: Visualization of the VOSON map of voson.anu.edu.au]
-    
-- [Figure 4.2.8: VOSON hyperlink network with colors matching generic TLDs]
-    
-- [Figure 4.2.9: VOSON 2-degree hyperlink network showing significant size increase]
-    
-- [Figure 4.2.10: Filtered visualization containing 16 seed sites plus "important" sites]
-    
-- [Figure 4.2.11: Final filtered local hyperlink network for the VOSON Project]
-    
-- [Figure 4.2.12: Add seed sites dialog for the search term "social network analysis"]
-    
-- [Figure 4.2.13: Filtered visualization of seed sites focused on SNA + important sites]
-    
-- [Figure 4.2.14: Final subgraph containing only the industry seed sites]
-    
+![](https://media.discordapp.net/attachments/1121800843193229406/1487475119139065940/image.png?ex=69c946a8&is=69c7f528&hm=6b75977cbb875a208c915eea5c7fe9ba232e4ce720cdbaa997904bcca105e8b0&=&format=webp&quality=lossless)
 
 ---
 

@@ -69,6 +69,7 @@ Facebook friendship networks are **Egocentric Networks**.
         
     - **Iterations:** Default settings (10 iterations) are often too low for Facebook. Increasing to **80-100 iterations** helps resolve distinct clusters.
         
+![](https://www.connectedaction.net/wp-content/uploads/2009/09/2009-September-Bernie-Hogan-Facebook-Network-Visualization.png)
 
 ---
 

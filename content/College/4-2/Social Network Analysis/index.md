@@ -56,7 +56,7 @@ title: Social Network Analysis
 
 Based on:
 
-**Hansen, Derek, Ben Sheiderman, Marc Smith**, _Analyzing Social Media Networks with NodeXL: Insights from a Connected World_, Morgan Kaufmann, 2011.
+[**Hansen, Derek, Ben Sheiderman, Marc Smith**, _Analyzing Social Media Networks with NodeXL: Insights from a Connected World_, Morgan Kaufmann, 2011.](https://www.sciencedirect.com/book/monograph/9780123822291/analyzing-social-media-networks-with-nodexl)
 
 and
 

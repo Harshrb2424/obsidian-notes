@@ -37,10 +37,9 @@ Wikis (specifically those using **MediaWiki** software) have several structural 
     
 - **User Accounts:** While anonymous editing is often allowed, accounts allow for the tracking of "User Contributions" and the building of reputation.
     
+![](https://diff.wikimedia.org/wp-content/uploads/2023/01/diff.png?fit=1500%2C1000)
 
-> **Placeholder for Figure 5.2.1: Wikipedia article page layout.**
-
-> **Placeholder for Figure 5.2.2: Wiki revision history page.**
+![](https://www.researchgate.net/profile/Mj-Bishop/publication/225680609/figure/fig4/AS:341343319674894@1458393997858/Revision-history-of-a-Wikipedia-entry.png)
 
 ---
 
@@ -108,7 +107,7 @@ By creating **1.5-degree ego networks** (the user and their neighbors, plus conn
     - **Structure:** Well-embedded in the general network but uninvolved in the specific project (e.g., Project Castle).
         
 
-> **Placeholder for Figure 5.2.10: Ego network subgraphs of four wiki roles.**
+![](https://cdn.discordapp.com/attachments/1121800843193229406/1487471921879716042/image.png?ex=69c943ae&is=69c7f22e&hm=249ec0242ac0dccc18cbec5e293a4b6f43b8ff21d9c124845180786250e2b2db)
 
 ---
 
@@ -130,8 +129,7 @@ This example explores the quality of discussion and how "structural signatures" 
     
     - **Deliberative users** tend to have fewer partners and act as mediators to diffuse hostility.
         
-
-> **Placeholder for Figure 5.2.12: Talk page connections depicting deliberation levels.**
+![](https://cdn.discordapp.com/attachments/1121800843193229406/1487471942062571582/image.png?ex=69c943b2&is=69c7f232&hm=4f53c06f677ed99a531fb9aecc682363f09a230b2887f33fb5e2d7dc38fe0282)
 
 ---
 
@@ -157,7 +155,7 @@ This example explores the quality of discussion and how "structural signatures" 
 - **Result:** A higher threshold (e.g., minimum 30% shared interest) reveals the most significant relationships and the true "backbone" of the community.
     
 
-> **Placeholder for Figure 5.2.16: Normalized user-to-user affiliation network.**
+![](https://media.discordapp.net/attachments/1121800843193229406/1487472142974062622/image.png?ex=69c943e2&is=69c7f262&hm=03ec44b64978a411b3d4c5c5ffba7b67a33f1721be9a93292560ad37f4012894&=&format=webp&quality=lossless)
 
 ---
 
