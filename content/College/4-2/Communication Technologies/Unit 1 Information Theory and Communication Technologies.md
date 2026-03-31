@@ -1,7 +1,3 @@
-# UNIT - I: Information Theory and Communication Technologies
-
-**Subject: COMMUNICATION TECHNOLOGIES**
-
 ## 1. Shannon Capacity
 
 A digital signal is transmitted through a channel that is limited by its **bandwidth** (in Hertz) and by unwanted **noise and interference**. The absolute maximum data rate that can be transmitted over this channel without errors is called the **Channel Capacity**.
@@ -155,8 +151,9 @@ Source coding compresses data by **removing** redundancy and irrelevant details,
 
 1. **Spatial Compression (JPEG):** Compresses each single image frame independently using Discrete Cosine Transform (DCT) to remove irrelevant visual details.
     
-    - $$Figure 9: JPEG compression example$$
-2. **Temporal Compression (MPEG):** Removes redundant background data between consecutive moving frames. It transmits:
+![JPEG compression example](https://media.discordapp.net/attachments/1121800843193229406/1488609233497751572/image.png?ex=69cd66e2&is=69cc1562&hm=60b69743f641d929c51c0eb56849db61451feb8f2bf72e90e0d22f6926c50c8c&=&format=webp&quality=lossless)
+
+1. **Temporal Compression (MPEG):** Removes redundant background data between consecutive moving frames. It transmits:
     
     - **I-Frames:** Independent, full original pictures.
         
@@ -164,7 +161,7 @@ Source coding compresses data by **removing** redundancy and irrelevant details,
         
     - **B-Frames:** Bidirectional frames (calculates changes by looking at both past and future frames).
         
-    - $$Figure 10: MPEG video compression$$
+![MPEG video compression](https://media.discordapp.net/attachments/1121800843193229406/1488609234248536144/image.png?ex=69cd66e2&is=69cc1562&hm=535d053526cb7f53d79ef053e7b3dd83a7601a8a2c07b37cc1d4707cd6d9944c&=&format=webp&quality=lossless)
 
 By using MPEG-2, the 1.106 Gbps video can be shrunk down to just 27 Mbps.
 
@@ -176,24 +173,28 @@ While source coding removes redundancy, channel coding **intentionally adds redu
 
 1. **Interleaving:** Shuffles the data bits before sending. If a burst of noise destroys a chunk of bits, the receiver de-interleaves them, spreading the errors out into "single-bit" errors that are much easier to fix.
     
-    - $$Figure 11: Interleaving example$$
-2. **Parity Checks:** Adding bits to ensure the total number of 1s is always even.
+![Interleaving example](https://media.discordapp.net/attachments/1121800843193229406/1488609377236684840/image.png?ex=69cd6704&is=69cc1584&hm=f6d82578fc8e8cf58d7c31bbc4d6fd3828b600ee64aac950004b3b0c4be6989f&=&format=webp&quality=lossless)
+
+1. **Parity Checks:** Adding bits to ensure the total number of 1s is always even.
     
     - _Rectangular (2D) Parity:_ Arranges data in rows and columns with vertical and horizontal parity bits. This grid allows the receiver to pinpoint and flip the exact single broken bit.
         
-    - $$Figure 12: Rectangular parity check to find the errored bit$$
-3. **Linear Block Codes:** Maps $k$ message bits into an $n$-bit code word using a Generator Matrix ($G$). At the receiver, a Parity Check Matrix ($H$) generates a "Syndrome" ($S$). If $S=0$, there are no errors. If $S \neq 0$, the syndrome mathematically points to the exact error pattern to be corrected.
+![Rectangular parity check to find the errored bit](https://media.discordapp.net/attachments/1121800843193229406/1488609486196441108/image.png?ex=69cd671e&is=69cc159e&hm=cf179d7820d75edcc302c0e3bf590274140d0849e71390ac0ae5122fd2ad802c&=&format=webp&quality=lossless)
+
+2. **Linear Block Codes:** Maps $k$ message bits into an $n$-bit code word using a Generator Matrix ($G$). At the receiver, a Parity Check Matrix ($H$) generates a "Syndrome" ($S$). If $S=0$, there are no errors. If $S \neq 0$, the syndrome mathematically points to the exact error pattern to be corrected.
     
     - _Hamming Code:_ A popular block code that easily fixes single-bit errors.
         
-    - $$Figure 13: Hamming code parity check$$
-4. **Convolutional Codes:** Unlike block codes, these use shift registers to add "memory". The output code depends not only on the current input bit but also on the previous bits in the register (defined by constraint length $K$).
+![Hamming code parity check](https://media.discordapp.net/attachments/1121800843193229406/1488609934743441532/image.png?ex=69cd6789&is=69cc1609&hm=11341a43b6f0a9c0c2a4cd9884dcfa76eb6b3e4379318b6db4cad93bf1faa0d4&=&format=webp&quality=lossless)
+
+2. **Convolutional Codes:** Unlike block codes, these use shift registers to add "memory". The output code depends not only on the current input bit but also on the previous bits in the register (defined by constraint length $K$).
     
-    - $$Figure 14: Convolutional encoder$$
-    - $$Figure 15: Convolutional encoder state diagram$$
-5. **Viterbi Decoding:** A Maximum Likelihood decoding algorithm. It uses a "Trellis Diagram" to map all possible paths the convolutional code could have taken. When paths merge, it discards the paths with high error metrics (Hamming distances) to deduce the original data.
+![Figure 14: Convolutional encoder](https://www.researchgate.net/profile/Juha-Plosila/publication/31595950/figure/fig2/AS:654072529055757@1532954451973/K3-k1-n2-convolutional-encoder.png)
+![Convolutional encoder state diagram](https://media.discordapp.net/attachments/1121800843193229406/1488611552939475054/image.png?ex=69cd690b&is=69cc178b&hm=e94334e5bd2732993aac0e7ee0a44acd33145abb5d256a508df055bfdaaf935a&=&format=webp&quality=lossless)
+
+2. **Viterbi Decoding:** A Maximum Likelihood decoding algorithm. It uses a "Trellis Diagram" to map all possible paths the convolutional code could have taken. When paths merge, it discards the paths with high error metrics (Hamming distances) to deduce the original data.
     
-    - $$Figure 16: Trellis diagram with two merged paths$$
+![Trellis diagram with two merged paths](https://media.discordapp.net/attachments/1121800843193229406/1488611553388527716/image.png?ex=69cd690b&is=69cc178b&hm=802c288702adbaaf8dda6bb4d4ec1de81a5165a6b7f4bb9c916c9e22ff7c5ac7&=&format=webp&quality=lossless)
 
 ## 7. Modulation Schemes
 
@@ -207,7 +208,7 @@ Modulation maps digital binary data onto an analog radio or optical carrier wave
     
     - $s(t) = I(t)\cos(2\pi ft) + Q(t)\sin(2\pi ft)$  
         
-    - $$Figure 17: Complex quadrature carriers$$
+![Complex quadrature carriers](https://media.discordapp.net/attachments/1121800843193229406/1488611553870745610/image.png?ex=69cd690b&is=69cc178b&hm=6c3c17b76d04eeea31951c1a260746ade10070bc8f47d167b06c20058e154524&=&format=webp&quality=lossless)
 
 **Digital Modulation Types (Constellations):**
 
@@ -217,16 +218,15 @@ Represented on a "Constellation Diagram". The points are arranged so adjacent sy
     
 - **QPSK (Quadrature PSK):** 4 symbols ($2^2$). Transmits 2 bits per symbol.
     
-    - $$Figure 18: BPSK and QPSK$$
+![Figure 18: BPSK and QPSK](https://i.sstatic.net/Y850k.png)
+
 - **8PSK & 16PSK:** 8 and 16 symbols ($2^3$ and $2^4$). Transmits 3 or 4 bits by shifting the phase in a circle.
-    
-    - $$Figure 19: 8PSK and 16 PSK$$
 - **QAM (Quadrature Amplitude Modulation):** Varies _both_ amplitude and phase. Extremely efficient. (16QAM, 32QAM, 64QAM, 256QAM).
     
     - _The Trade-off:_ 64QAM transmits 6 bits per symbol, making it very fast. However, because the 64 dots are packed tightly together on the constellation diagram, even a tiny amount of noise will cause the receiver to guess the wrong dot. Therefore, higher QAMs require a vastly superior Signal-to-Noise Ratio (Eb/No) to function without high bit error rates.
         
-    - $$Figure 20: Constellation diagrams 16QAM and 64QAM$$
-    - $$Figure 21: Symbol error probability of QAM$$
+![](https://www.researchgate.net/profile/Krishn-Gupt/publication/319651224/figure/fig2/AS:538320874766336@1505357106534/The-four-DVB-S2-constellations-QPSK-8PSK-16APSK-and-32APSK-before-PLScrambling.png)
+![](https://www.researchgate.net/publication/271556531/figure/fig1/AS:614040028061747@1523409959888/Symbol-error-probability-for-QAM-signaling-M4-16-64-256.png)
 
 |**Modulation scheme**|**Spectral efficiency (b/s/Hz)**|
 |---|---|
@@ -265,20 +265,23 @@ The internet evolved from early Circuit-Switched voice telephone networks into m
 
 Modern telecommunications are converging onto an **All-IP** architecture. Instead of maintaining separate networks for TV, Telephone, and Internet, _all_ multimedia services are packetized as IP data and routed over a unified convergence layer, regardless of the physical access technology (5G, Wi-Fi, optical fiber, or satellite) underneath.
 
-- $$Figure 22: Integration of various services in an All-IP network$$
-- $$Figure 23: Classical Transport Network$$
-- $$Figure 24: Future All-IP Transport Network$$
+![](https://media.discordapp.net/attachments/1121800843193229406/1488612239102447806/image.png?ex=69cd69ae&is=69cc182e&hm=f7526eee613200529d2bf5e35dfe39f8f49394076f966f0b3a3ede9ce2dbcac1&=&format=webp&quality=lossless)
+![](https://media.discordapp.net/attachments/1121800843193229406/1488612239446638686/image.png?ex=69cd69ae&is=69cc182e&hm=4ba9bc2b3cbb86e938f8329244c8973ccd11177c69985a2d7118ae1ebbc04d54&=&format=webp&quality=lossless)
 
 ## Links:
 
-[[CT Unit 1]]
+[[Unit 1 Information Theory and Communication Technologies]]
 
-[[CT Unit 2]]
+[[Unit 2 Wireless Communication Technologies]]
 
-[[CT Unit 3]]
+[[Unit 3 Cellular Mobile Networks]]
 
-[[CT Unit 4]]
+[[Unit 4 Free Space Optical Communications]]
 
-[[CT Unit 5]]
+[[Unit 5 Network Security and Management]]
+
+---
 
 [[College/4-2/Social Network Analysis/index|Social Network Analysis]]
+
+[[College/4-2/Conversational AI/index|Conversational AI]]

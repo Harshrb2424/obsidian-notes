@@ -100,3 +100,23 @@ The architecture of a standard dialogue system typically involves a pipeline of 
 ---
 
 **Visual Reference:** The diagram below (provided in source) illustrates the skeleton of these systems:
+
+
+## Links:
+
+[[Unit 1 Introducing Dialogue Systems]]
+
+[[Unit 2 Rule-based Dialogue Systems]]
+
+[[Unit 3 Statistical Data-driven Dialogue Systems]]
+
+[[Unit 4 Evaluating Dialogue Systems]]
+
+[[Unit 5 End-to-End Neural Dialogue Systems]]
+
+
+---
+
+[[College/4-2/Communication Technologies/index|Communication Technologies]]
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]

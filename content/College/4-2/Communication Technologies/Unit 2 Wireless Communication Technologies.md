@@ -1,7 +1,3 @@
-# UNIT - II: Wireless Communication Technologies
-
-**Subject: COMMUNICATION TECHNOLOGIES**
-
 ## 1. WLAN / WiFi (Wireless Local Area Network)
 
 WLAN and WiFi are different names for the same technology. They operate in the license-free **ISM (Industry, Science, and Medicine)** frequency bands, primarily at 2.4 GHz and 5.8 GHz. They are ideal for autonomous local networks (like campuses, airports, or homes) due to their flexible installation.
@@ -63,8 +59,19 @@ If two laptops are connected to the same AP but are too far apart to hear each o
 
 _Channel Spacing Formula (2.4 GHz):_ $f_k = 2412 \text{ MHz} + (k-1) \times 5 \text{ MHz}$. (Channels 1, 6, and 11 are non-overlapping in the US).
 
-$$Table 9: SNR. RSSI. Data Rates$$
+***Data Rate for IEEE 802.11 g***
 
+| RSSI (dBm) | SNR 4 | SNR 5 | SNR 6 | SNR 7 | SNR 8 | SNR 9 | SNR 10 | SNR 11 |
+|------------|-------|-------|-------|-------|-------|-------|--------|--------|
+| -94        | 1     | 1     | 1     | 1     | 1     | 1     | 1      | 1      |
+| -91        | 1     | 1     | 2     | 2     | 2     | 2     | 2      | 2      |
+| -87        | 1     | 1     | 2     | 2     | 5.5   | 5.5   | 5.5    | 5.5    |
+| -86        | 1     | 1     | 2     | 2     | 6     | 9     | 9      | 18     |
+| -84        | 1     | 1     | 2     | 2     | 6     | 9     | 9      | 18     |
+| -82        | 1     | 1     | 2     | 2     | 6     | 9     | 11     | 24     |
+| -80        | 1     | 1     | 2     | 2     | 6     | 9     | 11     | 36     |
+| -75        | 1     | 1     | 2     | 2     | 6     | 9     | 11     | 48     |
+| -71        | 1     | 1     | 2     | 2     | 6     | 9     | 11     | 54     |
 ## 2. Bluetooth (WPAN)
 
 Bluetooth is a standard for **WPAN (Wireless Personal Area Networks)**, formally defined as **IEEE 802.15-1**. Initially developed by Ericsson, it is meant to replace short-range cables connecting phones, PCs, printers, and headsets.
@@ -125,13 +132,32 @@ Standardized by ISO/IEC 18000. Used for asset tracking, toll collection, warehou
 - **Key Traits:** Uses frequencies like 125 kHz, 13.56 MHz, 433 MHz, etc. Unlike lasers/IR, RFID withstands harsh environments (frost, dirt, sunlight) and doesn't need line-of-sight. They are, however, vulnerable to Denial-of-Service attacks or physical shielding.
     
 
-$$Table 10: Different RFID$$
+| Band                     | Regulations              | Range       | Data speed         |
+|--------------------------|--------------------------|-------------|--------------------|
+| 120–150 kHz (LF)         | Unregulated              | 10 cm       | Low                |
+| 13.56 MHz (HF)           | ISM band worldwide       | 10 cm–1 m   | Low to moderate    |
+| 433 MHz (UHF)            | Short range devices      | 1–100 m     | Moderate           |
+| 865–868 MHz (Europe)     | ISM band                 | 1–12 m      | Moderate to high   |
+| 902–928 MHz (America)    | ISM band                 | 1–12 m      | Moderate to high   |
+| 2450–5800 MHz (microwave)| ISM band                 | 1–2 m       | High               |
+| 3.1–10 GHz (microwave)   | Ultra wide band          | Up to 200 m | High               |
 
 ## 4. Satellite Communications
 
 Satellites seamlessly cover vast geographical areas (oceans, deserts) where laying cable infrastructure is economically or physically impossible.
 
-$$Table 11: Frequency ranges for satellite communications (e.g., L/S-Band for telephony, Ku/Ka-Band for broadband/TV)$$
+| Band                         | Frequencies used                                                                                                  |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| HF-Band                      | 1.8 – 30 MHz                                                                                                      |
+| VHF-Band                     | 50 – 146 MHz                                                                                                      |
+| UHF-Band                     | 0.43 – 1.3 GHz                                                                                                    |
+| L-Band (GEO, LEO)            | 1.53 – 2.7 GHz                                                                                                    |
+| S-Band (GEO, LEO)            | 2.7 – 3.5 GHz                                                                                                     |
+| C-Band                       | DL 7.25 – 7.745 GHz, UL 7.9 – 8.395 GHz                                                                           |
+| X-Band                       | DL 3.7 – 4.2 GHz, UL 5.925 – 6.425 GHz                                                                            |
+| Ku-Band (Europe) (GEO, LEO)  | DL FSS 10.7–11.7 GHz, DL Telecom 12.5–12.75 GHz, DBS 11.7–12.5 GHz, 17.3–18.1 GHz, UL FSS & Telecom 14.0–14.8 GHz |
+| Ku-Band (America) (GEO, LEO) | DL FSS 11.7–12.2 GHz, DBS 12.2–12.7 GHz, 17.3–17.8 GHz, UL FSS 14.0–14.5 GHz                                      |
+| Ka-Band (GEO, LEO)           | 18 – 31 GHz                                                                                                       |
 
 **Satellite Orbits:**
 
@@ -152,7 +178,7 @@ Satellites balance the earth's gravitational pull against centrifugal force to s
     - _Cons:_ Satellites move rapidly across the sky. Requires a massive constellation of satellites and complex **handovers** to keep users connected.
         
 
-$$Figure 46: Satellite altitudes versus orbit period$$
+![Satellite altitudes versus orbit period](https://media.discordapp.net/attachments/1121800843193229406/1488614334157557760/image.png?ex=69cd6ba2&is=69cc1a22&hm=c8132ef0d1e2373164fd0b013cd79951abd762e3cbc3c9c72b6a11edb6f2615b&=&format=webp&quality=lossless)
 
 **Network Architecture & Handovers:**
 
@@ -180,7 +206,9 @@ Satellites require Line of Sight (LOS) and are heavily impacted by weather.
 - _Mitigation:_ Systems use uplink-power control, adaptive FEC (Forward Error Correction), and site diversity (using multiple satellites at once).
     
 
-$$Figure 47: Rain attenuation distribution$$$$Figure 48: Attenuation due to clouds and fog, or water droplets$$
+![Rain attenuation distribution](https://media.discordapp.net/attachments/1121800843193229406/1488614334459416586/image.png?ex=69cd6ba2&is=69cc1a22&hm=2e020a22ca2dd16524a44c9407b61be7eb45ce19d3516798d3ffdf526b885d54&=&format=webp&quality=lossless)
+
+![Attenuation due to clouds and fog, or water droplets](https://media.discordapp.net/attachments/1121800843193229406/1488614334782505140/image.png?ex=69cd6ba2&is=69cc1a22&hm=3d99c30050bb66314f0b20dd8e73e10e37936e74ee2b5b827b9f94632077756f&=&format=webp&quality=lossless)
 
 ## 5. Broadcast Services
 
@@ -202,8 +230,6 @@ Analog broadcasting (NTSC, PAL, FM radio) is largely being replaced by digital f
         
     - **SC (Synchronisation Channel):** Keeps the transmitter and receiver perfectly aligned.
         
-
-$$Figure 49: Subcarrier under consideration$$
 
 **DVB (Digital Video Broadcast):**
 
@@ -230,3 +256,21 @@ DVB uses a container system to manage the multiplexed channels.
     
 
 _Note: Broadcasting is naturally asymmetric (downlink only). If an interactive return channel is needed, it typically utilizes terrestrial connections like xDSL or PSTN._
+
+## Links:
+
+[[Unit 1 Information Theory and Communication Technologies]]
+
+[[Unit 2 Wireless Communication Technologies]]
+
+[[Unit 3 Cellular Mobile Networks]]
+
+[[Unit 4 Free Space Optical Communications]]
+
+[[Unit 5 Network Security and Management]]
+
+---
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]
+
+[[College/4-2/Conversational AI/index|Conversational AI]]

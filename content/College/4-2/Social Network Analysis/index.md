@@ -14,59 +14,48 @@ title: Social Network Analysis
 [[SNA Unit 5]]
 
 # Syllabus
-## UNIT - I: Information Theory & Fundamentals
+## UNIT - I: Introduction
 
-- **Information Theory:** Shannon Capacity, Information Content, and Entropy.
+- **Social Media:** Exploring new technologies of digital collaboration.
     
-- **Data Handling:** Multimedia Data, Data Processing, and Boolean Logics.
-    
-- **Coding & Transmission:** Source Coding, Channel Coding, Modulation Schemes, and the Internet.
-    
+- **Social Network Analysis (SNA):** The trinity of **Measuring, Mapping, and Modeling** collections of connections.
 
----
+## UNIT - II: Technical Foundations with NodeXL
 
-## UNIT - II: Wireless Communication Technologies
-
-- **Local & Personal Networks:** WLAN, Wi-Fi, Bluetooth, and other Wireless PAN technologies.
+- **Design:** Layout, Visual Design, and Labeling.
     
-- **Wide Area & Satellite:** Wireless WAN Technologies and Satellite Communications.
+- **Metrics:** Calculating and visualizing network metrics (Centrality, Density, etc.).
     
-- **Services:** Broadcast Services and long-range wireless data transmission.
+- **Processing:** Preparing data, filtering noise, and implementing **Clustering and Grouping** algorithms.
     
 
----
+## UNIT - III: Case Studies (Communication & Microblogging)
 
-## UNIT - III: Cellular Mobile Networks
-
-- **Generations:** Evolution from GSM (2G) and UMTS (3G) to LTE (4G) and 5G Mobile Networks.
+- **Email:** Analyzing the "lifeblood" of modern organizational communication.
     
-- **Architecture:** Mobile Network Planning Aspects, cell site design, and capacity management.
+- **Thread Networks:** Mapping the structure of message boards and listservs.
     
-
----
-
-## UNIT - IV: Optical Communications
-
-- **Fiber Technologies:** Optical Fiber, FTTC (Curb), FTTH (Home), and FTTB (Building).
-    
-- **Free Space Optics:** Free Space Optical Links, Channel Modeling with interference factors, and Deep Space Optical Communications.
+- **Twitter:** Examining the intersection of conversation, entertainment, and information flow.
     
 
----
+## UNIT - IV: Case Studies (Social & Hyperlink Networks)
 
-## UNIT - V: Network Security and Management
-
-- **Cryptography:** Symmetrical and Asymmetrical Encryption, Authentication, and Hash-Values.
+- **Facebook:** Visualizing and interpreting personal and group social graphs.
     
-- **Network Integrity:** Integrity Checks and Telecommunications Management Network (TMN).
+- **WWW Hyperlink Networks:** Understanding the "web" of the World Wide Web through link analysis.
     
-- **Administration:** SNMP (Simple Network Management Protocol), Functionalities of Network Management, and Future Trends.
 
+## UNIT - V: Case Studies (Content & Collaboration)
+
+- **YouTube:** Analyzing patterns of content interaction, prominence, and subscriber behavior.
+    
+- **Wiki Networks:** Mapping the connections of creativity and collaborative knowledge building.
+    
 ---
 
 Based on:
 
-[Shun-Ping Chen, “Fundamentals of Information and Communication Technologies” 2020](https://onesearch.adelphi.edu/discovery/fulldisplay?docid=alma991004402262406266&context=L&vid=01ADELPHI_INST:01ADELPHI_INST&lang=en&adaptor=Local%20Search%20Engine&tab=Everything&query=sub,exact,%20Information%20technology%20,AND&mode=advanced&offset=0)
+[**Hansen, Derek, Ben Sheiderman, Marc Smith**, _Analyzing Social Media Networks with NodeXL: Insights from a Connected World_, Morgan Kaufmann, 2011.](https://www.sciencedirect.com/book/monograph/9780123822291/analyzing-social-media-networks-with-nodexl)
 
 and
 

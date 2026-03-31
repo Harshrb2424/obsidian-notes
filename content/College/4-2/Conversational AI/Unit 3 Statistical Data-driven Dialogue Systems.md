@@ -114,3 +114,24 @@ $\downarrow$
 $\downarrow$
 
 **NLG $\rightarrow$ TTS $\rightarrow$ Output**
+
+
+
+## Links:
+
+[[Unit 1 Introducing Dialogue Systems]]
+
+[[Unit 2 Rule-based Dialogue Systems]]
+
+[[Unit 3 Statistical Data-driven Dialogue Systems]]
+
+[[Unit 4 Evaluating Dialogue Systems]]
+
+[[Unit 5 End-to-End Neural Dialogue Systems]]
+
+
+---
+
+[[College/4-2/Communication Technologies/index|Communication Technologies]]
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]

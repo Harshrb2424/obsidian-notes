@@ -92,3 +92,23 @@ Teams typically use a **Hybrid Architecture**:
 
 - **CoBot Toolkit:** Amazon provides the basic ASR (Speech recognition) and TTS (Voice).
 - **Ensemble Models:** Teams often run multiple sub-models (a rule-based model for greetings, a neural model for chit-chat, a retrieval model for news) and use a **Ranker/Selector** to choose the best response from these sub-models.
+
+
+## Links:
+
+[[Unit 1 Introducing Dialogue Systems]]
+
+[[Unit 2 Rule-based Dialogue Systems]]
+
+[[Unit 3 Statistical Data-driven Dialogue Systems]]
+
+[[Unit 4 Evaluating Dialogue Systems]]
+
+[[Unit 5 End-to-End Neural Dialogue Systems]]
+
+
+---
+
+[[College/4-2/Communication Technologies/index|Communication Technologies]]
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]

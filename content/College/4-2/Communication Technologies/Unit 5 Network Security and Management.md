@@ -1,5 +1,3 @@
-# UNIT - V: Network Security and Management
-
 ## 1. Fundamental Aspects of Network Security
 
 To establish a secure and robust network, engineers and operators must guarantee five major security functionalities. These pillars ensure that data is safe, accessible, and protected from malicious intent.
@@ -30,11 +28,11 @@ Availability and performance are strongly related to the **Quality of Service (Q
 - **Packet Loss:** Loss of information during transmission.
     
 
-$$Placeholder: Figure 82 - ITU-T QoS guidelines$$
+![ITU-T QoS guidelines](https://media.discordapp.net/attachments/1121800843193229406/1488620060229501099/image.png?ex=69cd70f7&is=69cc1f77&hm=117a5d04846a60be7a46e5fd57fddc6059315124d2a5b762f10f24cb5466ed92&=&format=webp&quality=lossless)
 
 These technical parameters directly influence the **Quality of Experience (QoE)**, which is the subjective performance from the user's point of view.
 
-$$Placeholder: Figure 83 - A subset of technical QoS parameters$$
+![A subset of technical QoS parameters](https://media.discordapp.net/attachments/1121800843193229406/1488620060556660786/image.png?ex=69cd70f7&is=69cc1f77&hm=e01c11d8c6d8e6a0d6dca8a5b697a718f3ff04fd07430f2012d6a06f749eff31&=&format=webp&quality=lossless)
 
 ### 2.1 Calculating Availability and Reliability
 
@@ -78,7 +76,7 @@ Understanding how network components are connected helps in calculating total ne
 
 Corporate network security involves rigorous risk analysis to protect business-critical systems:
 
-$$Placeholder: Figure 84 - Risk analysis$$
+![Risk analysis](https://media.discordapp.net/attachments/1121800843193229406/1488620060908978301/image.png?ex=69cd70f7&is=69cc1f77&hm=6b959278b9360739e518ab515804b61d16611adeafef8b09a60f76750bb90a50&=&format=webp&quality=lossless)
 
 IT departments must calculate:
 
@@ -97,8 +95,7 @@ Networks carry different types of traffic, which react differently to network im
     
 - **nrt (Non-Real-Time) Services:** e.g., Email and Data files. Highly sensitive to bit errors, but insensitive to delay and jitter.
     
-
-$$Placeholder: Figure 85 - Sensitivity of rt and nrt services$$
+![Sensitivity of rt and nrt services](https://media.discordapp.net/attachments/1121800843193229406/1488620061618082054/image.png?ex=69cd70f7&is=69cc1f77&hm=f54835ec5db359d93dd662bf458562bb1b155b316dff4b780a6f83c2938584af&=&format=webp&quality=lossless)
 
 ### 3.1 Real-Time Transport Protocol (RTP) and SIP
 
@@ -106,7 +103,7 @@ Because IP packets take unpredictable routes, delay variation (jitter) occurs. A
 
 Standard protocols like TCP (causes too much delay due to retransmissions) and UDP (lacks timestamps) are inadequate for real-time traffic. Instead, the **Real-time Transport Protocol (RTP)** is used.
 
-$$Placeholder: Figure 86 - Real-time Transport Protocol$$
+![Real-time Transport Protocol](https://media.discordapp.net/attachments/1121800843193229406/1488620310205829181/image.png?ex=69cd7133&is=69cc1fb3&hm=30440da589709ae6c53dfb5afe59618c3a4d51080c2e91beb17c5d0b2aa50249&=&format=webp&quality=lossless)
 
 **RTP Features:**
 
@@ -119,7 +116,7 @@ $$Placeholder: Figure 86 - Real-time Transport Protocol$$
 
 RTP is managed by **RTCP (Real-time Transport Control Protocol)**, which shares statistics on quality. To establish and manage these multimedia sessions, the **Session Initiation Protocol (SIP)** is used (using messages like INVITE, OPTIONS, BYE).
 
-$$Placeholder: Figure 87 - SIP messages$$
+![SIP messages](https://media.discordapp.net/attachments/1121800843193229406/1488620310574924001/image.png?ex=69cd7133&is=69cc1fb3&hm=ea1a084296e4fea0e20ca1ec9967687c914c7f577963cd9d8018ffb4598e2f9e&=&format=webp&quality=lossless)
 
 ### 3.2 Scheduling and Traffic Shaping
 
@@ -161,7 +158,7 @@ Cryptography conceals secret information to ensure confidentiality, authenticity
 
 Both sender and receiver use the **same secret key** for encryption and decryption.
 
-$$Placeholder: Figure 88 - Symmetrical encryption$$
+![Symmetrical encryption](https://media.discordapp.net/attachments/1121800843193229406/1488620311002747086/image.png?ex=69cd7133&is=69cc1fb3&hm=09c57e400a0edb8dc4adce7e9d294c212c4aa7b34a221a1ffd54c19f5cf21ccd&=&format=webp&quality=lossless)
 
 - **Classical Ciphers:** e.g., Caesar Cipher (shifting the alphabet). Easily cracked via statistical frequency analysis.
     
@@ -173,15 +170,14 @@ $$Placeholder: Figure 88 - Symmetrical encryption$$
         
     - **AES (Advanced Encryption Standard):** Replaced DES. Uses 128, 192, or 256-bit keys and provides high security.
         
-
-$$Placeholder: Figure 89 - DES Data Encryption Standard with Feistel networks$$
+![DES Data Encryption Standard with Feistel networks](https://media.discordapp.net/attachments/1121800843193229406/1488620311531487457/image.png?ex=69cd7133&is=69cc1fb3&hm=8b2e95caf9f85f84b0faf6d1eb70c31200a52e18776ae2558cc2859f03ce4ae0&=&format=webp&quality=lossless)
 
 - **Stream Ciphers:** Encrypt plaintext bits continuously with a pseudo-random key stream.
     
     - **A5/1:** Used in GSM mobile networks. Uses linear feedback shift registers (LFSR) to generate a pseudo-random key stream that is XORed with the payload data burst.
         
 
-$$Placeholder: Figure 90 - Stream cipher$$
+![Stream cipher](https://media.discordapp.net/attachments/1121800843193229406/1488621544598016050/image.png?ex=69cd7259&is=69cc20d9&hm=883ba0ec7f435d5ae93ad7511acada5546358f1f38428340198807752d8d3b78&=&format=webp&quality=lossless&width=550&height=273)
 
 **The Main Problem:** Symmetrical encryption is fast, but securely exchanging the shared secret key between the sender and receiver is very difficult (Key Distribution Problem).
 
@@ -189,7 +185,7 @@ $$Placeholder: Figure 90 - Stream cipher$$
 
 Uses different keys: a **Public Key** (openly shared to encrypt data) and a **Private Key** (kept strictly secret to decrypt data).
 
-$$Placeholder: Figure 91 - Asymmetrical encryption$$
+![Asymmetrical encryption]()
 
 - **RSA:** Relies on the mathematical difficulty of prime number factoring and modulus operations.
     
@@ -220,7 +216,7 @@ TMN is standardized by the ITU-T to manage complex networks (ISDN, ATM, GSM, All
 4. **Element Management:** Handles individual network elements (hardware/software maintenance, alarms, backups).
     
 
-$$Placeholder: Figure 92 - ITU-T TMN$$
+![ITU-T TMN](https://media.discordapp.net/attachments/1121800843193229406/1488620786838143067/image.png?ex=69cd71a4&is=69cc2024&hm=8116cd6b5b164c1f67f94dc8a54486481fe94be5ead1dbceec94b2c00089d4df&=&format=webp&quality=lossless)
 
 ## 7. Simple Network Management Protocol (SNMP)
 
@@ -235,7 +231,8 @@ SNMP is the IETF standard for managing IP-based computer networks. It is a Clien
 - **MIT (Management Information Tree):** Organizes Managed Objects globally using unique identifiers.
     
 
-$$Placeholder: Figure 93 - Interaction between Manager and Agent$$$$Placeholder: Figure 94 - Management Information Tree$$
+![Interaction between Manager and Agent](https://media.discordapp.net/attachments/1121800843193229406/1488620787345916256/image.png?ex=69cd71a4&is=69cc2024&hm=4ee4d436c1ca6a2d5a6b9c8cf2f2ec58880ad21cf8153fe6e6c6bde1a4d8d70d&=&format=webp&quality=lossless)
+![Management Information Tree](https://media.discordapp.net/attachments/1121800843193229406/1488620787995902163/image.png?ex=69cd71a5&is=69cc2025&hm=dc0325d9dd037e42e5c9e37cfdd2345b5891d258409bad80bec961e2a27a24a9&=&format=webp&quality=lossless)
 
 **SNMP Operations:** The Manager uses `GetRequest` to ask for data and `SetRequest` to change configurations. The Agent responds with `GetResponse`. Critically, if an Agent detects an error, it can send an unprompted `Trap` alarm to the Manager.
 
@@ -256,7 +253,7 @@ Network Management Systems (NMS) or Operation Maintenance Centers (OMC) perform 
 
 Network operators manage complex multi-vendor networks. The goal of the NMS is to monitor all these subsystems (Optical backbone, GSM/LTE/5G access, switches) in parallel to prevent outages.
 
-$$Placeholder: Figure 95 - Main tasks of network management$$
+![Main tasks of network management](https://media.discordapp.net/attachments/1121800843193229406/1488620788478116031/image.png?ex=69cd71a5&is=69cc2025&hm=af6b2190dee9f25ebb0d153a63afe589a0dcef45b35a5ad7b2ebeea78afd86db&=&format=webp&quality=lossless)
 
 ## 9. Trends and Future Developments
 
@@ -269,3 +266,21 @@ $$Placeholder: Figure 95 - Main tasks of network management$$
 - **Deep Space Optical Communications (DSOC):** NASA and ESA are investigating laser communications to replace RF in space, offering smaller footprints and vastly higher data rates.
     
 - **AI & Green IT:** Machine learning and Big Data are being used for intelligent traffic transmission. Meanwhile, Extreme Large Scale Integration is reducing hardware size and power consumption to combat climate change.
+
+## Links:
+
+[[Unit 1 Information Theory and Communication Technologies]]
+
+[[Unit 2 Wireless Communication Technologies]]
+
+[[Unit 3 Cellular Mobile Networks]]
+
+[[Unit 4 Free Space Optical Communications]]
+
+[[Unit 5 Network Security and Management]]
+
+---
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]
+
+[[College/4-2/Conversational AI/index|Conversational AI]]

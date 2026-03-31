@@ -1,5 +1,3 @@
-# UNIT - IV: Free Space Optical Communications
-
 ## 1. Optical Fibre
 
 Since the invention of quartz glass fiber by Charles Kao, optical fiber has rapidly developed to become the most important and indispensable backbone of the modern internet and global multimedia transmission.
@@ -16,8 +14,7 @@ Since the invention of quartz glass fiber by Charles Kao, optical fiber has rapi
     
 - **Network Scale:** It is the unrivaled transport technology for all network sizes, including LAN (Local), MAN (Metropolitan), WAN (Nationwide), and GAN (Global Area Networks—such as transoceanic cables connecting continents).
     
-
-$$Placeholder: Figure 67 - Dielectric quartz glass optical fibre$$
+![Dielectric quartz glass optical fibre](https://media.discordapp.net/attachments/1121800843193229406/1488619292768469193/image.png?ex=69cd7040&is=69cc1ec0&hm=843abd0f6331916f8eab847c38dd379b76e4f0eec4f888fd3cca87da018c87ef&=&format=webp&quality=lossless)
 
 ## 2. Fiber Network Architectures (FTTC, FTTH, FTTBS)
 
@@ -127,9 +124,7 @@ Several complex factors dictate how well an FSOC link performs through the atmos
     
 - For larger distances, lower bit rates (like 10 Gbps) and lower-order modulation schemes must be used. To reach Tbps speeds, DWDM must be implemented over the free-space link.
     
-
-$$Placeholder: Figure 79 - Constellation diagrams 16-QAM with 10 and 100 Gbps$$
-
+![Constellation diagrams 16-QAM with 10 and 100 Gbps](https://media.discordapp.net/attachments/1121800843193229406/1488619293296820344/image.png?ex=69cd7040&is=69cc1ec0&hm=eb8ae2cf7373eb051ed48721f8d83a495ddab17ee4d37d944a105359c4fcb48e&=&format=webp&quality=lossless)
 ## 4. Deep Space Optical Communications (DSOC)
 
 DSOC is currently heavily investigated by space agencies like NASA and ESA to replace classical Radio Frequency (S, X, and Ka bands) for deep-space missions.
@@ -153,8 +148,7 @@ DSOC is currently heavily investigated by space agencies like NASA and ESA to re
     
 - **Photon Starvation:** Over distances of 2.5 AU, the laser spot size expands massively. As a result, only a tiny handful of photons reach the receiver per pulse (photon starvation).
     
-
-$$Placeholder: Figure 80 - Laser spot size versus distance$$$$Placeholder: Figure 81 - Photons per PPM pulse versus distance$$
+![](https://media.discordapp.net/attachments/1121800843193229406/1488619293817049380/image.png?ex=69cd7040&is=69cc1ec0&hm=19e57225f452efc21dbd15990efd7ecbd920edbae9e193f915ead53712fd5750&=&format=webp&quality=lossless)
 
 **Overcoming DSOC Challenges:**
 
@@ -171,3 +165,21 @@ $$Placeholder: Figure 80 - Laser spot size versus distance$$$$Placeholder: Figur
 - **Geiger-mode APD Receivers:** The receiving telescopes use micro-lens Avalanche Photodiode (APD) arrays operating in "Geiger-mode". These are so sensitive they can literally count individual incoming photons.
     
 - **Error Correction:** Because signal power is so incredibly weak at 2.5 AU, sophisticated Forward Error Correction (FEC) and channel coding are absolutely indispensable to piece the data back together.
+
+## Links:
+
+[[Unit 1 Information Theory and Communication Technologies]]
+
+[[Unit 2 Wireless Communication Technologies]]
+
+[[Unit 3 Cellular Mobile Networks]]
+
+[[Unit 4 Free Space Optical Communications]]
+
+[[Unit 5 Network Security and Management]]
+
+---
+
+[[College/4-2/Social Network Analysis/index|Social Network Analysis]]
+
+[[College/4-2/Conversational AI/index|Conversational AI]]

@@ -13,3 +13,9 @@
 [[SNA Unit 4]]
 
 [[SNA Unit 5]]
+
+---
+
+[[College/4-2/Communication Technologies/index|Communication Technologies]]
+
+[[College/4-2/Conversational AI/index|Conversational AI]]
