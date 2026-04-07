@@ -111,7 +111,7 @@
     
 - **Edge Labels:** Added via the "Label" column in the Edges worksheet to describe the relationship (e.g., "Phone call" vs. "Email").
 
-![](https://media.discordapp.net/attachments/1121800843193229406/1479790478420607098/image.png?ex=69ad51c7&is=69ac0047&hm=c5f63d82cab2d9c2ab52eaec126a0e65a0d575b9e70cc3826eb26975b6a36d2c&=&format=webp&quality=lossless&width=550&height=251)
+![](https://cdn.harshrb.in/resources/Labeling%20and%20Shapes.png)
 
 ---
 

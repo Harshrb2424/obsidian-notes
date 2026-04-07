@@ -90,7 +90,7 @@ This explores who links to a specific organization (using the VOSON Project site
     
 - **The Solution:** Create a subgraph containing only "important sites"—defined here as sites with an **undirected degree $\ge 2$** (meaning they are connected to at least two other sites in your target network).
     
-![](https://media.discordapp.net/attachments/1121800843193229406/1487475117998215323/image.png?ex=69c946a8&is=69c7f528&hm=f99615a836cc5726091de77c94e6ef38167bf4ff206d6c0ec93eaa77c0e47932&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/Topic-Drift.png)
 
 ---
 
@@ -110,7 +110,7 @@ Instead of an ego network, this maps an entire sector (e.g., "Social Network Ana
         
 - **Actionable Insight:** If a top-ranked site in your industry does _not_ link to you, submitting a request for a link can significantly increase your traffic and search engine ranking.
     
-![](https://media.discordapp.net/attachments/1121800843193229406/1487475119139065940/image.png?ex=69c946a8&is=69c7f528&hm=6b75977cbb875a208c915eea5c7fe9ba232e4ce720cdbaa997904bcca105e8b0&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/Mapping-a-Field.png)
 
 ---
 

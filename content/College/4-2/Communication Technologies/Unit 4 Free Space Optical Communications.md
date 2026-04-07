@@ -14,7 +14,7 @@ Since the invention of quartz glass fiber by Charles Kao, optical fiber has rapi
     
 - **Network Scale:** It is the unrivaled transport technology for all network sizes, including LAN (Local), MAN (Metropolitan), WAN (Nationwide), and GAN (Global Area Networks—such as transoceanic cables connecting continents).
     
-![Dielectric quartz glass optical fibre](https://media.discordapp.net/attachments/1121800843193229406/1488619292768469193/image.png?ex=69cd7040&is=69cc1ec0&hm=843abd0f6331916f8eab847c38dd379b76e4f0eec4f888fd3cca87da018c87ef&=&format=webp&quality=lossless)
+![Dielectric quartz glass optical fibre](https://cdn.harshrb.in/resources/quartz%20glass%2067.png)
 
 ## 2. Fiber Network Architectures (FTTC, FTTH, FTTBS)
 
@@ -124,7 +124,7 @@ Several complex factors dictate how well an FSOC link performs through the atmos
     
 - For larger distances, lower bit rates (like 10 Gbps) and lower-order modulation schemes must be used. To reach Tbps speeds, DWDM must be implemented over the free-space link.
     
-![Constellation diagrams 16-QAM with 10 and 100 Gbps](https://media.discordapp.net/attachments/1121800843193229406/1488619293296820344/image.png?ex=69cd7040&is=69cc1ec0&hm=eb8ae2cf7373eb051ed48721f8d83a495ddab17ee4d37d944a105359c4fcb48e&=&format=webp&quality=lossless)
+![Constellation diagrams 16-QAM with 10 and 100 Gbps](https://cdn.harshrb.in/resources/Constellation%20diagrams%2016-QAM%20with%2010%20and%20100%20Gbps.png)
 ## 4. Deep Space Optical Communications (DSOC)
 
 DSOC is currently heavily investigated by space agencies like NASA and ESA to replace classical Radio Frequency (S, X, and Ka bands) for deep-space missions.
@@ -148,7 +148,7 @@ DSOC is currently heavily investigated by space agencies like NASA and ESA to re
     
 - **Photon Starvation:** Over distances of 2.5 AU, the laser spot size expands massively. As a result, only a tiny handful of photons reach the receiver per pulse (photon starvation).
     
-![](https://media.discordapp.net/attachments/1121800843193229406/1488619293817049380/image.png?ex=69cd7040&is=69cc1ec0&hm=19e57225f452efc21dbd15990efd7ecbd920edbae9e193f915ead53712fd5750&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/80%2081.png)
 
 **Overcoming DSOC Challenges:**
 

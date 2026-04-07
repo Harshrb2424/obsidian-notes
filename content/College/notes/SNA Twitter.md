@@ -13,7 +13,8 @@
 - **Ecosystem:** Beyond the web interface, third-party clients like **TweetDeck** and **Twhirl** allow for specialized views (columns, search queries).
     
 
-[Image Placeholder: Figure 3.3.1 - Estimated growth curve of Twitter showing sharp spikes in 2007 and 2009]
+![Image Placeholder: Figure 3.3.1 - Estimated growth curve of Twitter showing sharp spikes in 2007 and 2009](https://i.guim.co.uk/img/static/sys-images/Media/Pix/pictures/2010/3/12/1268403777336/Twitter-RJMetrics-001.jpg?width=445&dpr=1&s=none&crop=none)
+
 
 ---
 
@@ -44,7 +45,7 @@ Twitter is a **conversational microblog** where users post "tweets" limited to *
     - Functions as **validation** (I like this) and **amplification** (I want my followers to see this).
         
 
-[Image Placeholder: Figure 3.3.2 - Twitter’s web-based interface dashboard]
+![Image Placeholder: Figure 3.3.2 - Twitter’s web-based interface dashboard](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxYi7m52v8K20pMbWXv41RY5bUPwjNUp-fg&s)
 
 ---
 
@@ -57,7 +58,6 @@ The "Friends/Followers" network is actually two distinct networks overlaying the
 2. **Information Network:** The reverse direction; shows where information flows (from the tweeter to the followers).
     
 
-[Image Placeholder: Figure 3.3.9 - Diagram showing attention flowing to friends and information flowing to followers]
 
 #### Centrality Metrics in Twitter
 
@@ -70,7 +70,7 @@ The "Friends/Followers" network is actually two distinct networks overlaying the
     - _The "Bridge":_ An actor who connects two otherwise unconnected clusters. High betweenness actors are "information brokers" who see diverse content first.
         
 
-[Image Placeholder: Figure 3.3.10 - A bridge actor connecting two separate communities, illustrating high betweenness vs. low eigenvector centrality]
+![Image Placeholder: Figure 3.3.10 - A bridge actor connecting two separate communities, illustrating high betweenness vs. low eigenvector centrality](https://memgraph.com/images/blog/why-are-nodes-with-a-high-betweenness-centrality-score-high-maintenance/why-are-nodes-with-a-high-betweenness-centrality-score-high-maintenance%2FBetweennes-centrality-high-score.png)
 
 ---
 
@@ -100,7 +100,6 @@ The "Friends/Followers" network is actually two distinct networks overlaying the
 - **Cluster Detection:** Using NodeXL’s "Find Clusters" can automatically separate your Twitter alters into real-world groups (e.g., "Family" vs. "Work Colleagues").
     
 
-[Image Placeholder: Figure 3.3.14 - A 1.5-degree egocentric network filtered to show only strong social ties, revealing two distinct clusters]
 
 #### 3.3.5.2 Trending Topics (Information Diffusion)
 
@@ -114,8 +113,6 @@ The "Friends/Followers" network is actually two distinct networks overlaying the
     
     - Analysis reveals "seeds"—specialized accounts that may have few followers but are highly effective at getting their messages retweeted by larger, more active accounts.
         
-
-[Image Placeholder: Figure 3.3.19 - Twitter mentions network for "Black Friday" showing a starlike structure around key promoters]
 
 ---
 

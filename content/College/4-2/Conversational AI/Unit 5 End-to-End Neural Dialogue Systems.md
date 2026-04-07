@@ -26,7 +26,7 @@ In neural dialogue, an input utterance is mapped directly to an output response 
 
 
 
-![Placeholder: Fig 5.1 - The end-to-end neural architecture vs the traditional pipeline](https://media.discordapp.net/attachments/1121800843193229406/1488608020400308244/image.png?ex=69cd65c1&is=69cc1441&hm=afbaf0e2a75480c17de122f0dcc0a5654210fdf7db3b457be20a4931f76765b8&=&format=webp&quality=lossless)
+![Placeholder: Fig 5.1 - The end-to-end neural architecture vs the traditional pipeline](https://cdn.harshrb.in/resources/Neural-Model.png)
 
 ---
 

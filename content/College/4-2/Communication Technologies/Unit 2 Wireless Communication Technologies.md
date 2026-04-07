@@ -132,15 +132,15 @@ Standardized by ISO/IEC 18000. Used for asset tracking, toll collection, warehou
 - **Key Traits:** Uses frequencies like 125 kHz, 13.56 MHz, 433 MHz, etc. Unlike lasers/IR, RFID withstands harsh environments (frost, dirt, sunlight) and doesn't need line-of-sight. They are, however, vulnerable to Denial-of-Service attacks or physical shielding.
     
 
-| Band                     | Regulations              | Range       | Data speed         |
-|--------------------------|--------------------------|-------------|--------------------|
-| 120–150 kHz (LF)         | Unregulated              | 10 cm       | Low                |
-| 13.56 MHz (HF)           | ISM band worldwide       | 10 cm–1 m   | Low to moderate    |
-| 433 MHz (UHF)            | Short range devices      | 1–100 m     | Moderate           |
-| 865–868 MHz (Europe)     | ISM band                 | 1–12 m      | Moderate to high   |
-| 902–928 MHz (America)    | ISM band                 | 1–12 m      | Moderate to high   |
-| 2450–5800 MHz (microwave)| ISM band                 | 1–2 m       | High               |
-| 3.1–10 GHz (microwave)   | Ultra wide band          | Up to 200 m | High               |
+| Band                      | Regulations         | Range       | Data speed       |
+| ------------------------- | ------------------- | ----------- | ---------------- |
+| 120–150 kHz (LF)          | Unregulated         | 10 cm       | Low              |
+| 13.56 MHz (HF)            | ISM band worldwide  | 10 cm–1 m   | Low to moderate  |
+| 433 MHz (UHF)             | Short range devices | 1–100 m     | Moderate         |
+| 865–868 MHz (Europe)      | ISM band            | 1–12 m      | Moderate to high |
+| 902–928 MHz (America)     | ISM band            | 1–12 m      | Moderate to high |
+| 2450–5800 MHz (microwave) | ISM band            | 1–2 m       | High             |
+| 3.1–10 GHz (microwave)    | Ultra wide band     | Up to 200 m | High             |
 
 ## 4. Satellite Communications
 
@@ -178,7 +178,7 @@ Satellites balance the earth's gravitational pull against centrifugal force to s
     - _Cons:_ Satellites move rapidly across the sky. Requires a massive constellation of satellites and complex **handovers** to keep users connected.
         
 
-![Satellite altitudes versus orbit period](https://media.discordapp.net/attachments/1121800843193229406/1488614334157557760/image.png?ex=69cd6ba2&is=69cc1a22&hm=c8132ef0d1e2373164fd0b013cd79951abd762e3cbc3c9c72b6a11edb6f2615b&=&format=webp&quality=lossless)
+![Satellite altitudes versus orbit period](https://cdn.harshrb.in/resources/LEO%2046.png)
 
 **Network Architecture & Handovers:**
 
@@ -206,9 +206,9 @@ Satellites require Line of Sight (LOS) and are heavily impacted by weather.
 - _Mitigation:_ Systems use uplink-power control, adaptive FEC (Forward Error Correction), and site diversity (using multiple satellites at once).
     
 
-![Rain attenuation distribution](https://media.discordapp.net/attachments/1121800843193229406/1488614334459416586/image.png?ex=69cd6ba2&is=69cc1a22&hm=2e020a22ca2dd16524a44c9407b61be7eb45ce19d3516798d3ffdf526b885d54&=&format=webp&quality=lossless)
+![Rain attenuation distribution](https://cdn.harshrb.in/resources/Signal%20Attenuation%20Issues%2047.png)
 
-![Attenuation due to clouds and fog, or water droplets](https://media.discordapp.net/attachments/1121800843193229406/1488614334782505140/image.png?ex=69cd6ba2&is=69cc1a22&hm=3d99c30050bb66314f0b20dd8e73e10e37936e74ee2b5b827b9f94632077756f&=&format=webp&quality=lossless)
+![Attenuation due to clouds and fog, or water droplets](https://cdn.harshrb.in/resources/Signal%20Attenuation%20Issues%2048.png)
 
 ## 5. Broadcast Services
 

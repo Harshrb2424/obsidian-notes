@@ -107,7 +107,7 @@ By creating **1.5-degree ego networks** (the user and their neighbors, plus conn
     - **Structure:** Well-embedded in the general network but uninvolved in the specific project (e.g., Project Castle).
         
 
-![](https://cdn.discordapp.com/attachments/1121800843193229406/1487471921879716042/image.png?ex=69c943ae&is=69c7f22e&hm=249ec0242ac0dccc18cbec5e293a4b6f43b8ff21d9c124845180786250e2b2db)
+![](https://cdn.harshrb.in/resources/Social%20Roles%20and%20Subgraph%20Analysis.png)
 
 ---
 
@@ -128,8 +128,8 @@ This example explores the quality of discussion and how "structural signatures" 
 - **Findings:** * **Confrontational users** often have the highest **out-degree** (talking _at_ many people) and form the most intense (thickest) dyadic ties.
     
     - **Deliberative users** tend to have fewer partners and act as mediators to diffuse hostility.
-        
-![](https://cdn.discordapp.com/attachments/1121800843193229406/1487471942062571582/image.png?ex=69c943b2&is=69c7f232&hm=4f53c06f677ed99a531fb9aecc682363f09a230b2887f33fb5e2d7dc38fe0282)
+
+![](https://cdn.harshrb.in/resources/Deliberation%20in%20Article%20Talk%20Pages.png)
 
 ---
 
@@ -155,7 +155,7 @@ This example explores the quality of discussion and how "structural signatures" 
 - **Result:** A higher threshold (e.g., minimum 30% shared interest) reveals the most significant relationships and the true "backbone" of the community.
     
 
-![](https://media.discordapp.net/attachments/1121800843193229406/1487472142974062622/image.png?ex=69c943e2&is=69c7f262&hm=03ec44b64978a411b3d4c5c5ffba7b67a33f1721be9a93292560ad37f4012894&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/Normalization%20of%20Data.png)
 
 ---
 

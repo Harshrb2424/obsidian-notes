@@ -53,10 +53,10 @@ The **Kite Network** (by David Krackhardt) is a standard example used to demonst
         
 2.2. **Clustering Coefficient:**
     
-    - Measures how connected a vertex's neighbors are to _each other_.
-        
-    - A score of 1 means all your friends know each other (a **clique**).
-        
+- Measures how connected a vertex's neighbors are to _each other_.
+	
+- A score of 1 means all your friends know each other (a **clique**).
+	
 
 ---
 

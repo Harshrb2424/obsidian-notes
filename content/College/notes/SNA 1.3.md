@@ -30,7 +30,7 @@
     
 - **Visual Overlay:** Attribute data (like total tweet count) can be used to determine the size of a vertex in the graph.
     
-![](https://media.discordapp.net/attachments/1121800843193229406/1479787960617664565/image.png?ex=69ad4f6e&is=69abfdee&hm=1f5acc0ef00a8f4b3ff230e785ab8523b6e04463085db1e568fff716fc9547e0&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/imageA%20Simple%20Twitter%20Network%20Example.png)
     
 
 #### 1.3.2.2 Vertices and Edges
@@ -120,7 +120,7 @@
     
 - **Netviz Nirvana:** The ideal state of a visualization where every vertex/edge is visible, clusters are identifiable, and outliers are clear.
     
-![](https://media.discordapp.net/attachments/1121800843193229406/1479788111314817204/image.png?ex=69ad4f92&is=69abfe12&hm=ca45c7db6665eff6f113fd987e41decc72650314689799790564ee996b769bf3&=&format=webp&quality=lossless)
+![](https://cdn.harshrb.in/resources/Historical%20and%20Technical%20Context.png)
     
 
 ---

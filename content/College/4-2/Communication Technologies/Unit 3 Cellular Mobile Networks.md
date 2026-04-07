@@ -20,7 +20,7 @@ Networks provide coverage across various scales: PAN (Personal Area), MAN (Metro
     
 - **Beamforming (5G Evolution):** Traditional 2G/3G/4G antennas blindly cover a 120° sector. 5G introduces **massive MIMO multi-user beamforming**, where the antenna beam dynamically points directly at user "hot spots." This prevents wasting transmit power on empty areas and drastically improves spectral efficiency.
     
-![GSM three-sector cells and 5G three-sector cells using MU-MIMO beam forming](https://media.discordapp.net/attachments/1121800843193229406/1488615833507860693/image.png?ex=69cd6d07&is=69cc1b87&hm=522a481ad8cff731d030bf26581659c4a7c57fb7c7c7471e0f04295e6d95c979&=&format=webp&quality=lossless)
+![GSM three-sector cells and 5G three-sector cells using MU-MIMO beam forming](https://cdn.harshrb.in/resources/Beamforming%2050.png)
 
 ## 1. GSM (2G) and Its Evolution
 
@@ -75,7 +75,7 @@ The network is divided into three primary sub-systems:
         
     - **EIR (Equipment Identity Register):** Tracks mobile hardware (IMEI) to block stolen devices.
         
-![GSM mobile network architecture](https://media.discordapp.net/attachments/1121800843193229406/1488615834195857579/image.png?ex=69cd6d08&is=69cc1b88&hm=21a38f269d2e97406555ec3b85c83c0d1b73f2d0c424f73a05b9f2e34d89e77d&=&format=webp&quality=lossless)
+![GSM mobile network architecture](https://cdn.harshrb.in/resources/Operation%20Sub-System%2052.png)
 
 **Evolution of GSM (2.5G and 2.75G):**
 
@@ -113,7 +113,7 @@ The UMTS core relies on the GSM backbone but splits it logically:
     
 2. **PSD (Packet Switched Domain):** Handles internet data using GPRS components (SGSN, GGSN). Connects to UTRAN via the $I_u$**-PS** interface.
     
-![Integrated GSM/UMTS network](https://media.discordapp.net/attachments/1121800843193229406/1488615835269595186/image.png?ex=69cd6d08&is=69cc1b88&hm=f1a72888c3161e23d28033821e5ab65c4e842a000feadd50082392d3a0cdc092&=&format=webp&quality=lossless&width=552&height=903)
+![Integrated GSM/UMTS network](https://cdn.harshrb.in/resources/UMTS%2053.png)
 
 **Key UMTS Features:**
 
@@ -163,7 +163,8 @@ The LTE architecture simplifies the network into the UE, the **E-UTRAN** (Radio 
         
     - **HSS (Home Subscription Server):** The modern equivalent of the HLR, storing user subscription profiles and location data.
         
-![LTE network architecture](https://media.discordapp.net/attachments/1121800843193229406/1488615835781173392/image.png?ex=69cd6d08&is=69cc1b88&hm=030627ad5f40ab65abeaed4f711411c8e902ad0c6fa11a6a10397d8b9a52bda2&=&format=webp&quality=lossless)
+
+![LTE network architecture](https://cdn.harshrb.in/resources/LTE%2055.png)
 
 ## 4. 5G Mobile Networks
 
@@ -175,7 +176,7 @@ Using SDN and NFV, 5G can create isolated, virtual "slices" over the exact same 
 
 ![5G requirements](https://share.opsy.st/60f9a1679e342-image-5G.PNG)
 
-![5G network slices enabled by SDN/NFV](https://media.discordapp.net/attachments/1121800843193229406/1488616854024097923/image.png?ex=69cd6dfb&is=69cc1c7b&hm=aa74b652d4e9463aac67757bf3f0d82e3d55c51e680813251b8bed04e5528f14&=&format=webp&quality=lossless)
+![5G network slices enabled by SDN/NFV](https://cdn.harshrb.in/resources/5G%20slice%2057.png)
 
 **Basic 5G Service Classes:**
 
@@ -201,24 +202,24 @@ Using SDN and NFV, 5G can create isolated, virtual "slices" over the exact same 
 
 - Simulations show mmWaves (e.g., 28 GHz) can use directional or three-sector antennas to provide massive bandwidth over short distances, seamlessly switching to LTE for broader coverage.
     
-![5G architecture](https://media.discordapp.net/attachments/1121800843193229406/1488616854418358434/image.png?ex=69cd6dfb&is=69cc1c7b&hm=8e3b205c9a686256e82a6a340ea71880ae081fd1753c9817718ae508f5f3ab25&=&format=webp&quality=lossless)
-![5G Multi-Radio Access Technologies (RAT)](https://media.discordapp.net/attachments/1121800843193229406/1488616854707507270/image.png?ex=69cd6dfb&is=69cc1c7b&hm=c8e0cb467f24e8b3abf85212b1804b59654a56fb392fb2576adc0341f41ad6ec&=&format=webp&quality=lossless)
-![M-RAT by using MRRM access sets](https://media.discordapp.net/attachments/1121800843193229406/1488616855169142976/image.png?ex=69cd6dfb&is=69cc1c7b&hm=af5f037898ce38000af476bcc3bda89560ce9dd81446337fddc2074fb1d1740e&=&format=webp&quality=lossless)
+![5G architecture](https://cdn.harshrb.in/resources/5G%20architecture%2058.png)
+![5G Multi-Radio Access Technologies (RAT)](https://cdn.harshrb.in/resources/5G%2059.png)
+![M-RAT by using MRRM access sets](https://cdn.harshrb.in/resources/5G%2060.png)
 
-| Technology        | Carrier Frequency | Bandwidth     | BS TX Power | Typical Bitrate | Cell Radius | Delay  |
-|------------------|------------------|---------------|-------------|------------------|-------------|--------|
-| LTE              | 0.9–3.5 GHz      | 1.25–20 MHz   | 46 dBm      | 2–50 Mbps        | 0.5–1.7 km  | 100 ms |
-| WLAN 802.11a-n   | 2.4/5 GHz        | 20–80 MHz     | 23–30 dBm   | 100–400 Mbps     | 10–50 m     | n.g.   |
-| WLAN 802.11ac    | 5 GHz            | 2–80 MHz      | 23–30 dBm   | 3.6 Gbps         | 10–50 m     | n.g.   |
-| 5G low band      | 0.8–6.0 GHz      | GHz           | 15 dBm      | 1 Tbps           | 0.5 km      | 3 ms   |
-| 5G high band     | 6.0–90 GHz       | GHz           | 15 dBm      | 1 Tbps           | 0.5 km      | 3 ms   |
+| Technology     | Carrier Frequency | Bandwidth   | BS TX Power | Typical Bitrate | Cell Radius | Delay  |
+| -------------- | ----------------- | ----------- | ----------- | --------------- | ----------- | ------ |
+| LTE            | 0.9–3.5 GHz       | 1.25–20 MHz | 46 dBm      | 2–50 Mbps       | 0.5–1.7 km  | 100 ms |
+| WLAN 802.11a-n | 2.4/5 GHz         | 20–80 MHz   | 23–30 dBm   | 100–400 Mbps    | 10–50 m     | n.g.   |
+| WLAN 802.11ac  | 5 GHz             | 2–80 MHz    | 23–30 dBm   | 3.6 Gbps        | 10–50 m     | n.g.   |
+| 5G low band    | 0.8–6.0 GHz       | GHz         | 15 dBm      | 1 Tbps          | 0.5 km      | 3 ms   |
+| 5G high band   | 6.0–90 GHz        | GHz         | 15 dBm      | 1 Tbps          | 0.5 km      | 3 ms   |
 
-| Technology     | rt-NB (Voice, Skype) | rt-NB (uMTC V2V, Control) | nrt-NB (mMTC IoT, Sensors) | rt-BB (Video Conversation) | nrt-BB (Streaming, Download) |
-|----------------|----------------------|----------------------------|-----------------------------|-----------------------------|-------------------------------|
-| LTE            | x                    |                            | x                           |                             |                               |
-| WLAN/WiFi      | x                    |                            | x                           |                             | x                             |
-| 5G low band    | x                    | x                          | x                           | x                           | x                             |
-| 5G high band   |                      | x                          | x                           | x                           | x                             |
+| Technology   | rt-NB (Voice, Skype) | rt-NB (uMTC V2V, Control) | nrt-NB (mMTC IoT, Sensors) | rt-BB (Video Conversation) | nrt-BB (Streaming, Download) |
+| ------------ | -------------------- | ------------------------- | -------------------------- | -------------------------- | ---------------------------- |
+| LTE          | x                    |                           | x                          |                            |                              |
+| WLAN/WiFi    | x                    |                           | x                          |                            | x                            |
+| 5G low band  | x                    | x                         | x                          | x                          | x                            |
+| 5G high band |                      | x                         | x                          | x                          | x                            |
 
 **5G Security Requirements:**
 
@@ -239,7 +240,7 @@ Using SDN and NFV, 5G can create isolated, virtual "slices" over the exact same 
 
 Network planning is a highly complex process balancing coverage, user density, service demands (voice, data, IoT), blocking probabilities, and capital costs.
 
-![General mobile network planning procedures](https://media.discordapp.net/attachments/1121800843193229406/1488617293339693096/image.png?ex=69cd6e63&is=69cc1ce3&hm=888c00b2663a59571823f31a9b6f9793e4f132aee238d9843c584f5593e8409b&=&format=webp&quality=lossless)
+![General mobile network planning procedures](https://cdn.harshrb.in/resources/Mobile%20Network%20Planning%20Aspects%2061.png)
 
 **Traffic Forecasting & Cell Planning:**
 
@@ -254,7 +255,7 @@ Network planning is a highly complex process balancing coverage, user density, s
 3. **Site Surveys & Drive Tests:** Engineers visit proposed sites to verify the software's nominal plan. After base stations are built, "drive tests" are conducted to tune the network and fix dead zones.
     
 
-![Cell count](https://media.discordapp.net/attachments/1121800843193229406/1488617293863714998/image.png?ex=69cd6e64&is=69cc1ce4&hm=f90e08fe3c7271870a64b4b9964898ddff94772bb0d928cbf5685259d4529333&=&format=webp&quality=lossless)
+![Cell count](https://cdn.harshrb.in/resources/Cell%20count%2062.png)
 
 **Grade of Service & Cell Sizing:**
 
@@ -286,7 +287,7 @@ Network planning is a highly complex process balancing coverage, user density, s
     
 - _Channel Capacity Formula:_ A standard channel's capacity is $C = \log_2(1 + SNR)$. With $N$ MIMO antennas, capacity theoretically multiplies, greatly enhancing spectral efficiency.
     
-![SIMO MIMO](https://media.discordapp.net/attachments/1121800843193229406/1488617294216040660/image.png?ex=69cd6e64&is=69cc1ce4&hm=e8803d15d8cf1af37150736bb1edb62d544da77b9477260e97e35cfb459fd722&=&format=webp&quality=lossless)
+![SIMO MIMO](https://cdn.harshrb.in/resources/SIMO%20MIMO%2063.png)
 
 **Transport/Backhaul Network:**
 
