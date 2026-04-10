@@ -1,4 +1,4 @@
-## 1. Neural Network Approaches to Dialogue Modelling
+## 1. Explain neural network approaches to dialogue modelling.
 
 Neural approaches have evolved from rigid, modular pipelines to integrated, data-driven architectures that treat conversation as a sequence mapping problem.
 
@@ -31,7 +31,7 @@ Neural approaches have evolved from rigid, modular pipelines to integrated, data
 
 ---
 
-## 2. Retrieval-Based Dialogue Systems
+## 2. Discuss different techniques used in retrieval-based dialogue systems
 
 Instead of "writing" a response from scratch, these systems act as intelligent search engines, selecting the best match from a pre-existing database.
 
@@ -60,7 +60,7 @@ Instead of "writing" a response from scratch, these systems act as intelligent s
 
 ---
 
-## 3. Challenges in RL for POMDP-Based Dialogue Systems
+## 3. Discuss major problems in Reinforcement Learning for POMDP-based dialogue systems.
 
 Reinforcement Learning (RL) within a Partially Observable Markov Decision Process (POMDP) framework is mathematically robust for handling noise, but difficult to implement at scale.
 
@@ -77,7 +77,7 @@ Reinforcement Learning (RL) within a Partially Observable Markov Decision Proces
     
 - **The Black Box Problem:** Decisions made by an RL-trained policy are often opaque. This lack of transparency makes it difficult for engineers to troubleshoot specific errors or guarantee consistent behavior in commercial environments.
 
-# 4. Explain evaluation metrics for task-oriented dialogue systems
+	# 4. Explain evaluation metrics for task-oriented dialogue systems
 Task-oriented dialogue systems are evaluated based on their **efficiency** and **effectiveness** in helping users achieve specific goals. Evaluation metrics fall into several distinct categories:
 
 ### Overall Quantitative Metrics
@@ -108,7 +108,6 @@ These subjective metrics gauge user perception, typically relying on Likert scal
 - **PARADISE:** A unified evaluation framework that predicts **User Satisfaction** by using multiple linear regression to balance the trade-offs between **maximizing task success** and **minimizing costs** (such as dialogue length and user effort).
 
 # 5. Explain about Retrieval-Based Response Generation
-### Overview and Mechanism
 
 Retrieval-based response generation selects the most appropriate reply from a predefined database or dialogue corpus rather than generating new text word-by-word.
 

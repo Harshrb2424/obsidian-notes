@@ -1,4 +1,4 @@
-# **1. Principles and Architecture of Free Space Optical (FSO) Communication Systems**
+# 1. Explain the principles and architecture of Free Space Optical (FSO) Communication systems.
 
 Free Space Optical (FSO) communication is a wireless optical technology that transmits data using light propagation through free space (air, vacuum, or outer space) instead of guided media like optical fiber or radio waves. It operates on principles similar to fiber-optic communication but without physical cabling: data is modulated onto an optical carrier (typically infrared laser or LED light in the 780–1550 nm range), transmitted as a narrow beam, and demodulated at the receiver. The core principle relies on **line-of-sight (LOS)** transmission with intensity modulation/direct detection (IM/DD) or coherent detection schemes. High-bandwidth data (voice, video, internet) is encoded into light pulses, propagated through the atmosphere, and converted back to electrical signals. FSO achieves data rates up to several Gbps (e.g., 2.5 Gbps commercially) in license-free spectrum (terahertz range), making it immune to RF interference and highly secure due to narrow beam divergence.
 
@@ -10,7 +10,7 @@ Free Space Optical (FSO) communication is a wireless optical technology that tra
 
 Systems support topologies like point-to-point (PTP), point-to-multipoint (PMP), mesh, or ring for redundancy. It is often deployed as a fiber-optic complement for last-mile access, backhaul, or disaster recovery.
 
-# **2. Different Optical Access Network Architectures: Optical Fiber, FTTC, FTTH, and FTTBS**
+# 2. Describe different optical access network architectures such as Optical Fiber, FTTC, FTTH, and FTTBS. Compare their structures, performance, cost implications, and suitability for urban and rural deployments.
 
 Optical access networks deliver broadband using fiber optics in the last mile. Key architectures (collectively FTTx) differ in how far fiber extends toward the end user:
 
@@ -31,7 +31,7 @@ Optical access networks deliver broadband using fiber optics in the last mile. K
 
 FTTH offers superior scalability and symmetry but is costliest upfront. FTTC is cheaper and faster to deploy but performance degrades with distance/aging copper. Rural areas favor FTTC/FTTBS for cost; urban areas prefer FTTH for density and bandwidth demands.
 
-# **3. Symmetric Encryption and Asymmetric Encryption**
+# **3. Explain symmetric encryption and asymmetric encryption in detail.** Discuss working principles, advantages, limitations.
 
 **Symmetric Encryption**: Symmetric encryption uses a single shared secret key for both encryption and decryption. The working principle involves transforming plaintext into ciphertext using a mathematical algorithm (e.g., AES, DES, 3DES) and the shared key. The same key is used to reverse the process and retrieve the original plaintext. Symmetric encryption can be implemented as block ciphers (e.g., AES) or stream ciphers (e.g., RC4). It is widely used for encrypting large volumes of data efficiently.
 
@@ -47,7 +47,7 @@ FTTH offers superior scalability and symmetry but is costliest upfront. FTTC is 
 
 ---
 
-# **4. Authentication Mechanisms in Network Security**
+# **4. Discuss authentication mechanisms in network security.**Explain different types of authentication methods and how they help in preventing unauthorized access in communication systems.
 
 Authentication is the process of verifying the identity of a user or device before granting access to a system. It ensures that only authorized entities can access sensitive resources, preventing unauthorized access and data breaches.
 
@@ -63,8 +63,7 @@ Authentication is the process of verifying the identity of a user or device befo
 **Importance**: Authentication mechanisms are critical for securing communication systems. MFA significantly reduces the risk of unauthorized access, while certificate-based methods ensure trust in machine-to-machine interactions. Modern systems increasingly adopt passwordless and biometric methods for enhanced security and convenience.
 
 ---
-
-# **5. Architecture and Functions of TMN and SNMP**
+# 5. Describe the architecture and functions of Telecommunications Management Network (TMN) and SNMP. Explain their roles in network monitoring, fault management, configuration, and performance management.
 
 **Telecommunications Management Network (TMN)**: TMN is an ITU-T standard (M.3000 series) designed to manage complex telecommunications networks. Its architecture is hierarchical and layered, ensuring efficient management of network resources and services.
 
@@ -92,7 +91,7 @@ TMN uses the FCAPS model (Fault, Configuration, Accounting, Performance, Securit
 
 TMN provides a comprehensive framework for managing telecom networks, while SNMP serves as a practical tool for real-time monitoring and management within the TMN framework.
 
-# **6. Architecture and Key Features of LTE (4G) and 5G; Performance Comparison**
+# 6. Explain the architecture and key features of LTE (4G) and 5G Mobile Networks. Compare their performance in terms of data rates, latency, spectrum usage, and applications.
 
 **LTE (4G)**: LTE (Long-Term Evolution) is a fourth-generation mobile network technology designed to provide high-speed data and improved network efficiency. Its architecture is based on an all-IP flat network structure, which includes the Evolved Packet Core (EPC) and eNodeB (base stations). Key features include:
 - **OFDMA/SC-FDMA**: Orthogonal Frequency Division Multiple Access for downlink and Single Carrier FDMA for uplink.
@@ -119,8 +118,7 @@ TMN provides a comprehensive framework for managing telecom networks, while SNMP
 5G offers transformative improvements over LTE, including 10–100x faster speeds, ultra-low latency, and massive connectivity for IoT and smart cities.
 
 ---
-
-# **7. Design of a Free Space Optical Link; Advantages and Limitations of FSO**
+# 7. Discuss the design of a free space optical link, including transmitter, channel, and receiver. Analyze the advantages and limitations of FSO compared to traditional communication systems.
 
 **Design**: A Free Space Optical (FSO) link consists of the following components:
 - **Transmitter**: Converts data into optical signals using a modulator and a laser/LED driver. The beam is collimated using optics (e.g., telescopes).
@@ -140,8 +138,7 @@ TMN provides a comprehensive framework for managing telecom networks, while SNMP
 FSO is ideal for last-mile connectivity, disaster recovery, and areas where fiber deployment is impractical. However, its reliance on clear weather makes it less reliable than RF or fiber in certain conditions.
 
 ---
-
-# **8. Deep Space Optical Communication Systems**
+# 8. Explain Deep Space Optical Communication systems and their significance. compare them with conventional radio frequency communication used in space missions.
 
 Deep Space Optical Communication (DSOC) systems use laser beams (typically near-infrared) to transmit data over vast distances in space. These systems are critical for future space exploration missions, enabling high-data-rate communication with distant spacecraft.
 
@@ -163,7 +160,7 @@ NASA and ESA are actively developing DSOC technologies for missions like Psyche 
 
 ---
 
-# **9. Asymmetric Encryption Techniques and Role in Secure Communication**
+# 9. Describe asymmetric encryption techniques and their role in secure communication. Explain what are the public key and private key.
 
 Asymmetric encryption, also known as public-key encryption, uses a pair of keys—public and private—for secure communication over insecure channels. Common techniques include:
 - **RSA**: Based on the difficulty of factoring large integers.
@@ -179,7 +176,7 @@ Applications include TLS/SSL for secure web browsing, SSH for remote access, and
 
 ---
 
-# **10. Hash Functions and Integrity Checking Mechanisms**
+# 10. Explain hash functions and integrity checking mechanisms. Discuss how hash values are generated and used to ensure data integrity, including examples of common hashing algorithms.
 
 Hash functions are cryptographic algorithms that map input data of arbitrary length to a fixed-length output (hash value). They are widely used for data integrity verification and secure storage.
 
@@ -204,7 +201,7 @@ Hash functions are essential for ensuring data integrity and securing sensitive 
 
 ---
 
-# **11. Functionalities of Network Management Systems and Emerging Trends**
+# **11. Discuss the functionalities of network management systems and emerging trends in network security and management.**
 
 Network Management Systems (NMS) provide centralized control and monitoring of network infrastructure. They are based on the FCAPS model:
 - **Fault Management**: Detecting, isolating, and resolving network issues.
@@ -224,7 +221,7 @@ Modern NMS solutions are evolving to meet the demands of dynamic, secure, and sc
 
 ---
 
-# **12. Classification of Cellular Mobile Networks; Notes on 4G & 5G**
+# **12. Classify cellular mobile networks and Write notes on 4G & 5G networks in detail**
 
 Cellular mobile networks are classified by generation, each representing a significant technological advancement:
 - **1G**: Analog voice communication (e.g., AMPS) introduced in the 1980s.
