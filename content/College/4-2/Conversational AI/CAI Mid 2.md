@@ -4,7 +4,7 @@
 - Dialogue State Tracking (DST) is a fundamental sub-component of the Dialogue Manager (DM).
 - Its primary role is to update the **dialogue state** continuously by interpreting new user observations alongside the dialogue history.
 - This state represents all interaction details required for the system to intelligently decide its next action.
-
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.deepai.org%2Fconverted-papers%2F1910.09942%2Ffigures%2Fsystem.png&f=1&nofb=1&ipt=3e1df5796e3b1c1955f3653682c6d27f6cac5d00dabe4c821132759d5e730140)
 ### The Belief State and Handling Uncertainty
 
 - In modern statistical and Partially Observable Markov Decision Process (POMDP) frameworks, the DST maintains a **Belief State**.
