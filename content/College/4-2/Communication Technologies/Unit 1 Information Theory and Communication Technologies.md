@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CT/Unit%201%20Information%20Theory%20and%20Communication%20Technologies.pdf)
+
 ## 1. Shannon Capacity
 
 A digital signal is transmitted through a channel that is limited by its **bandwidth** (in Hertz) and by unwanted **noise and interference**. The absolute maximum data rate that can be transmitted over this channel without errors is called the **Channel Capacity**.

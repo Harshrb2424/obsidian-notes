@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CAI/Unit%205%20End-to-End%20Neural%20Dialogue%20Systems.pdf)
+
 ## 1. Neural Network Approaches to Dialogue Modeling
 
 Traditionally, dialogue systems followed a "modular" or "pipelined" architecture where different components (NLU, Dialogue Manager, NLG) were built and optimized separately. Modern research has shifted almost entirely to **End-to-End (E2E)** approaches.

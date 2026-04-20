@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/SNA/SNA%20Unit%202.pdf)
+
 ![[SNA 2.1]]
 
 ![[SNA 2.2]]

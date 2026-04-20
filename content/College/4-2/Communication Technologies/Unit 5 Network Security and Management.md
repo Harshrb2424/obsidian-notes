@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CT/Unit%205%20Network%20Security%20and%20Management.pdf)
+
 ## 1. Fundamental Aspects of Network Security
 
 To establish a secure and robust network, engineers and operators must guarantee five major security functionalities. These pillars ensure that data is safe, accessible, and protected from malicious intent.

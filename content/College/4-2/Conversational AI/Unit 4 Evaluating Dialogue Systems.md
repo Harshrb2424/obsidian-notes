@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CAI/Unit%204%20Evaluating%20Dialogue%20Systems.pdf)
+
 Evaluation is the process of measuring how well a Conversational AI system performs its intended task. Historically, evaluation was a subjective "black box" process, but since the 1990s (starting with projects like the DARPA Communicator), it has evolved into a rigorous scientific field. This shift allowed for the systematic comparison of systems across different research laboratories and companies.
 
 Evaluation is essential for three primary groups:

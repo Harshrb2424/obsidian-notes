@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CT/Unit%204%20Free%20Space%20Optical%20Communications.pdf)
+
 ## 1. Optical Fibre
 
 Since the invention of quartz glass fiber by Charles Kao, optical fiber has rapidly developed to become the most important and indispensable backbone of the modern internet and global multimedia transmission.

@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CT/Unit%202%20Wireless%20Communication%20Technologies.pdf)
+
 ## 1. WLAN / WiFi (Wireless Local Area Network)
 
 WLAN and WiFi are different names for the same technology. They operate in the license-free **ISM (Industry, Science, and Medicine)** frequency bands, primarily at 2.4 GHz and 5.8 GHz. They are ideal for autonomous local networks (like campuses, airports, or homes) due to their flexible installation.

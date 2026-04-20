@@ -1,3 +1,5 @@
+### [View PDF](https://cdn.harshrb.in/docs/CAI/Unit%202%20Rule-based%20Dialogue%20Systems.pdf)
+
 ## 1. Architecture and Design
 
 ### Dialogue Systems Architecture
